@@ -100,8 +100,8 @@ func ascii(w http.ResponseWriter, r *http.Request) {
 }
 func main() {
 	http.HandleFunc("/", welcome)
-	fmt.Println("Starting the server on :8080...")
+	fmt.Println("Starting the server on :8000...")
 	http.Handle("/templates/", http.StripPrefix("/templates/", http.FileServer(http.Dir("./templates"))))
 	http.HandleFunc("/ascii-art", ascii)
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Fatal(http.ListenAndServe(":8000", nil))
 }
