@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/templates/style.css">
+  <title>Ascii Art</title>
+</head>
+
+<body>
+  <h1>Welcome to Ascii Art Web </h1>
+
+  <form action="ascii-art" method = "post">
+    <div id="main-header" class="welcome"> 
+    </div>
+    <div class="card">
+      <label class="middle" for="banner">Choose your banner</label> <br>
+      <br>
+      <input type="radio" name="banner" value="shadow" id="banner"> shadow <br>
+      <input type="radio" name="banner" value="standard" id="banner"> standard <br>
+      <input type="radio" name="banner" value="thinkertoy" id="banner"> thinkertoy <br>
+      <br>
+    </div>
+      <div class="text">
+        <textarea name="text" id="text" cols="80" rows="10" placeholder="Type Something"></textarea> <br><br>
+      </div>
+
+      <input class="btn" type="submit" value="Submit">
+      </div>
+    </form>
+</body>
+
+</html>
