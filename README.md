@@ -37,4 +37,4 @@ Now you are able to generate text using diffrent banner available.
 
 
 ### Authors 
-Klaudia, Jordan, Mohammed 
+Klaudia 
